@@ -69,7 +69,7 @@ function Employee(name, email, hireDate) {
     this.move = 0;
     
     this.moveCar = function(){
-      this.move += 10
+      return this.move += 10
     }
   }
   
