@@ -38,6 +38,7 @@ function Animal(name, species, food) {
 }
 
 //Code Here
+ const animal1 = new Animal('Luka', 'Jaguar', 'Tacos');
 
 ////////// PROBLEM 3 //////////
 
