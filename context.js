@@ -18,6 +18,13 @@
 */
 
 //Code Here
+user = {
+  username: '',
+  email: '',
+  getUsername: function () {
+    return this.username;
+  }
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -57,6 +64,7 @@ let who = {
 }
 
 //Code Here
+let whoSaysHi = sayHi.bind(who)
 
 ////////// PROBLEM 4 //////////
 
